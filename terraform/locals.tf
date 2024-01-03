@@ -1,3 +1,3 @@
 locals {
-    name = "aft-account-provisioning-customizations"
+  name = "aft-account-provisioning-customizations"
 }
