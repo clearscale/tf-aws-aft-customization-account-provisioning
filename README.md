@@ -30,6 +30,10 @@ https://docs.aws.amazon.com/controltower/latest/userguide/aft-provisioning-frame
 
 Account definitions or Infrastructure as Code (IaC) scripts or code that are targeted at specific accounts or all (global) accounts should not be included here. See the list of other AFT Code Repositories below for proper placement of those definitions and customizations. Additionally, Non-essential or non-foundational resources not related to account setup are also outside the scope of all AFT repositories. The aim is to maintain the AFT framework with a minimal a footprint.
 
+## Step Functions
+
+AFT provides a suite of Step Functions for customizations and account provisioning. For more information, refer to the documentation on [account provisioning Step Functions](https://github.com/clearscale/tf-aws-aft-accounts?tab=readme-ov-file#running-pipelines) in the [tf-aws-aft-accounts](https://github.com/clearscale/tf-aws-aft-accounts) repository. Additionally, consult the [AWS documentation for the Account Provisioning Pipeline](https://docs.aws.amazon.com/controltower/latest/userguide/aft-provisioning-framework.html) and the [HashiCorp example](https://github.com/hashicorp/learn-terraform-aft-account-provisioning-customizations) for further guidance.
+
 ## AFT Code Repositories
 
 2. [Primary AFT Module](https://github.com/clearscale/tf-aws-aft)
